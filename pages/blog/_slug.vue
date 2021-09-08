@@ -2,7 +2,7 @@
   <article>
     <h1>{{ post.title }}</h1>
 
-    <p>post.description</p>
+    <p>{{post.description}}</p>
 
     <nuxt-content :document="post" />
   </article>
